@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+#chart-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#top5-bar-chart,
+#ordered-bar-chart {
+    width: 100%; /* Make the chart fill the container */
+    max-width: 500px; /* Set a maximum width for better readability, adjust as needed */
+    margin: auto; /* Center the chart horizontally */
+}
+
+/* Reset the default styles for unordered lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.position-column {
+    display: inline-block;
+    width: 30px; /* Adjust the width as needed */
+    text-align: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.label-column {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+}
+
+.value-column {
+    display: inline-block;
+    width: 50px; /* Adjust the width as needed */
+    text-align: right;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
